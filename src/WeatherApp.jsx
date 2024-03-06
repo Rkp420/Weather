@@ -23,7 +23,7 @@ export default function WeatherApp() {
     }
     return (
         <div style={{ textAlign: "center" }}>
-            <h1>Weather App by Ravi</h1>
+            <h1>Weather App by Rahul</h1>
             <Search updateWeather={updateWeather} />
             <br />
             {weatherInfo.Humidity > 80 ? <ThunderstormIcon /> : weatherInfo.Temprature > 15 ? <WbSunnyIcon /> : <AcUnitIcon />}
